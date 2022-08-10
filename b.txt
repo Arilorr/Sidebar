@@ -1,1 +1,5 @@
+<<<<<<< HEAD
+fuegfkfjkakgfuiewgrwbfjksdgfjhewjrgahkdtuerhjkaguahrjgew
+=======
 asdadsdadsads
+>>>>>>> f2fc5295716545f22bb470fa9b05b85b15012e1d
