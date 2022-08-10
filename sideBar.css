@@ -1,0 +1,57 @@
+.hamburger {
+  width: 50px;
+  height: 45px;
+  cursor: pointer;
+  margin: 5px;
+  box-shadow: 2px 2px 5px white;
+}
+.barTop {
+  height: 2px;
+  width: 35px;
+  background: black;
+  margin: 10px auto;
+  justify-items: center;
+  align-content: center;
+}
+.barMiddle {
+  height: 2px;
+  width: 35px;
+  background: black;
+  margin: 10px auto;
+  justify-items: center;
+  align-content: center;
+}
+.barBottom {
+  height: 2px;
+  width: 35px;
+  background: black;
+  margin: 10px auto;
+  justify-items: center;
+  align-content: center;
+}
+.hamburger:hover {
+  box-shadow: 2px 2px 5px white;
+}
+.hamburger:hover .barTop {
+  transform: translateY(10px) rotateZ(45deg);
+  animation-name: hamburgerHover1;
+  animation-duration: 2s;
+}
+.hamburger:hover .barMiddle {
+  width: 0;
+}
+.hamburger:hover .barBottom {
+  transform: translateY(-14px) rotateZ(-45deg);
+  animation-name: hamburgerHover2;
+  animation-duration: 2s;
+}
+@keyframes hamburgerHover1 {
+  from {
+    transform: translateY(10px) rotateZ(45deg);
+  }
+}
+@keyframes hamburgerHover2 {
+  from {
+    transform: translateY(-10px) rotateZ(-45deg);
+  }
+}
