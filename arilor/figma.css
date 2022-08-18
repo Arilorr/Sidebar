@@ -136,9 +136,6 @@
   width: 20vw;
   height: 30vh;
   padding-top: 10vh;
-  /* display: flex;
-  position: absolute;
-  z-index: -1; */
 }
 .images {
   display: flex;
